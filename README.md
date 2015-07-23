@@ -1,5 +1,6 @@
 Implement simple authorization for ASP.NET Web API
 ==
+*Written on the 8th of March 2014.*
 
 For a recent Windows Phone project I had the need of a web API that would do some processing for the mobile app. Thanks to the simplicity of ASP.NET Web API I was able to get my web service running in just a few hours. But then an issue remained: the website being deployed on Azure, the API endpoint was public. Despite the genericity of my API I wanted to be able to restrict its access only to trusted clients.
 
